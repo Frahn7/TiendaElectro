@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Css/index.css" />
+    <link rel="stylesheet" href="Css/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="Css/fontawesome/css/fontawesome.min.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="Nosotros.html">Nosotros</a></li>
+          <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <h1>Contacto</h1>
+
+      <div id="dp">
+        <form action="" method="post">
+          <div id="">
+            <label for="txtNombre">Nombre: *</label>
+            <input type="text" name="txtNombre" id="txtNombre" required />
+          </div>
+
+          <div id="">
+            <label for="txtCorreo">Correo: *</label>
+            <input type="email" name="txtCorreo" id="txtCorreo" required />
+          </div>
+
+          <div id="">
+            <label for="txtTelefono">Telefono: </label>
+            <input
+              placeholder="(11)9999-9999"
+              type="tel"
+              name="txtTelefono"
+              id="txtTelefono"
+            />
+          </div>
+
+          <div id="">
+            <label for="txtFecha">Fecha de Nacimiento *</label>
+            <input type="date" name="txtFecha" id="txtFecha" required />
+          </div>
+
+          <div id="">
+            <label for="lstPais">Pais:</label>
+            <select name="lstPais" id="lstPais">
+              <option value="" disabled selected>Seleccionar</option>
+              <optgroup label="Sudamerica">
+                <option value="54">Argentina</option>
+                <option value="55">Brasil</option>
+                <option value="57">Colombia</option>
+                <option value="52">Mexico</option>
+                <option value="58">Venezuela</option>
+              </optgroup>
+              <optgroup label="Europa">
+                <option value="34">España</option>
+                <option value="33">Francia</option>
+                <option value="49">Alemania</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div id="">
+            <label for="txtAsunto">Asunto</label>
+            <select name="txtAsunto" id="txtAsunto">
+              <option value="" disabled selected>Seleccionar</option>
+              <option value="Ventas">Ventas</option>
+              <option value="Soporte">Soporte</option>
+              <option value="WebMaster">WebMaster</option>
+            </select>
+          </div>
+
+          <div id="">
+            <label for="txtMensaje">Mensaje</label>
+            <textarea
+              name="txtMensaje"
+              id="txtMensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div id="no">
+            <label for="txtNovedades"
+              >Deseo recibir novedades por correo?</label
+            >
+            <input type="checkbox" name="txtNovedades" id="txtNovedades" />
+          </div>
+
+          <div id="no">
+            <label for="txtPoliticas"
+              >Acepto las politicas de privacidad y condiciones de uso</label
+            >
+            <input type="checkbox" name="txtPoliticas" id="txtPoliticas" />
+          </div>
+          <div id="no">
+            <label for="">Sos mayor de edad?</label>
+            <div></div>
+            <label for="txtEdad">Si</label>
+            <input type="radio" name="txtEdad3" id="txtEdad" />
+            <label for="txtEdad2">No</label>
+            <input type="radio" name="txtEdad3" id="txtEdad2" />
+          </div>
+
+          <div id="bo">
+            <button type="submit" name="brnEnviar" id="Enviar">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+      <footer>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a
+          href="https://www.linkedin.com/in/francisco-villella-330b30238/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </footer>
+    </header>
+  </body>
+</html>

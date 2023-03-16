@@ -1,0 +1,155 @@
+main {
+  margin: 20px 10%;
+}
+
+p {
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  text-decoration: underline;
+  font-size: auto;
+}
+
+#producto {
+  background-color: #eee;
+  width: 300px;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#vn {
+  font-weight: normal;
+  color: green;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.negrita {
+  font-weight: 800;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 36px;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  border-radius: 8px;
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+}
+
+#Colu {
+  display: flex;
+  justify-content: center;
+  margin: 17px;
+  padding: 18px;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  background-color: gray;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  background-color: red;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 14px 0px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 0px 50px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+img{
+  display: block;
+}
+
+form input, form textarea, form select{
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  border-color: red;
+  border-radius: 8px;
+  flex-direction: column;
+  text-align: center;
+}
+
+#dp{
+  padding: 0px 350px;
+}
+
+#no{
+  text-align: center;
+}
+
+form button{
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 30px;
+  background-color: orangered;
+}
+
+footer{
+width: max-content;
+margin: auto; 
+}
+
+footer i{
+  font-size: 30px;
+  border: 1px solid;
+  height: 48px;
+  width: 58px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  border-radius: 80px;
+  margin: 0 15px;
+  color: red;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
